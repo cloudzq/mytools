@@ -20,7 +20,7 @@ from email.mime.application import MIMEApplication
 class MailClient(object):
     def __init__(self, mail_to_list, mail_cc_list, mail_title, html_file,
                  mail_user='sboms@xxx.com.cn',
-                 mail_host='192.168.108.193', attachment=[])
+                 mail_host='192.168.108.193', attachment=[]):
         """
         email function
         :param mail_to_list: list or tuple
