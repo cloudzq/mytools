@@ -22,14 +22,14 @@ class MailClient(object):
                  mail_user='sboms@xxx.com.cn',
                  mail_host='192.168.108.193', attachment=[]):
         """
-        email function
-        :param mail_to_list: list or tuple
-        :param mail_cc_list: list or tuple
-        :param mail_title: str
-        :param html_file: str
-        :param mail_user: str
-        :param mail_host: str
-        :param attachment: list
+         email function
+        :param mail_to_list: 发给谁 ,list or tuple
+        :param mail_cc_list:抄送给谁 ,list or tuple
+        :param mail_title: 邮件标题 ,str
+        :param html_file:邮件正文 ,str
+        :param mail_user:发送邮件的人 ,str
+        :param mail_host: SMTP服务器地址 ,str
+        :param attachment: 附件 ,默认为None,list or tuple 绝对路径
         """
 
         print(mail_to_list)
